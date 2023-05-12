@@ -7,7 +7,7 @@ import streamlit as st
 import warnings
 
 warnings.filterwarnings('ignore')
-df = pd.read_csv('/Users/anubhavkarki/Programming/Capstone_Project_Customer/Customers-2.csv')
+df = pd.read_csv('/Users/shirshakbasnet/Programming/Capstone_Project_Customer/Customers.csv')
 
 # # Sidebar options for analysis
 analysis_options = st.sidebar.multiselect("Select the following for EDA:",
